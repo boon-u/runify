@@ -1,0 +1,110 @@
+body {
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #D6E5EB;
+  }
+  
+  .header {
+    width: 100%;
+    color: #089acb;
+    background-color: #089acb;
+    padding: 20px;
+    font-size: 24px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .form-box {
+    background-color: #0E5E7A;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .signin-extra-text {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .hidden_title {
+    color: #0E5E7A;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+
+  .input-group label {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .submit-btn {
+    width: 90%;
+    background-color: #026DFF;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #0163ec;
+    transform: scale(1.05);
+  }
+  
+  .link-text {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
